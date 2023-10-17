@@ -1,0 +1,15 @@
+header nav ul li a{
+    text-transform: uppercase;
+    line-height: 30px;
+    color: grey;
+}
+header nav a {
+    color: black;
+}
+
+.header--horizontal{
+    
+    margin-left:30px;
+    
+
+}

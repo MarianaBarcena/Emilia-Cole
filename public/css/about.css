@@ -1,0 +1,60 @@
+body.about{
+    background-image: url('/img/emilia-about.jpg');
+    background-repeat:no-repeat;
+    background-size: 75%;
+    background-position-x: right ;
+}
+.header-about {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 15px; }
+  
+  .header-about a {
+    margin: 2px; 
+  }
+.parrafo1{
+    color: rgb(75, 202, 181);
+    margin-left: 75px ;
+letter-spacing: 1px ;
+
+
+}
+
+.parrafo1_2{
+    color : rgb(75, 202, 181);
+    margin-left: 75px;
+    font-weight:300;
+margin-top: 20px;
+
+}
+.parrafo2{
+    color: rgb(75,202,181);
+margin-left: 75px;
+letter-spacing: 1px;
+font-weight: 300;
+margin-top: 70px;
+}
+.parrafo2_1{
+    color : rgb(75, 202, 181);
+    margin-left: 75px;
+}
+.header-nav-horizontal{
+    text-align: right;
+    background:rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+   
+}
+.horizontal li {
+    display:inline;
+
+}
+.horizontal li:not(:last-child)::after{
+    content: " | " ;
+    margin:0.10px;
+    
+}

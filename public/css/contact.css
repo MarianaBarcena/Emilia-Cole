@@ -1,0 +1,42 @@
+.header-horizontal {
+    display:inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-horizontal {
+    text-align: right;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.links {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-end; 
+    padding: 2px;
+}
+
+
+.links a {
+    margin-left: 10px; 
+}
+.mapita {
+    position:relative;
+    overflow:hidden;
+    padding-bottom: 1000px; 
+    height: 5px;
+    margin-bottom: 0px; 
+}
+
+.texto-abajo {
+    margin-top: 0px; 
+}
+
+.mapita iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
